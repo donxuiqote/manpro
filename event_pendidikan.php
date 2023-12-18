@@ -2,45 +2,38 @@
 <html>
 
 <head>
-  <!-- Basic -->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <!-- Mobile Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <!-- Site Metas -->
   <meta name="keywords" content="" />
   <meta name="description" content="" />
   <meta name="author" content="" />
 
-  <title>Esigned</title>
+  
 
-  <!-- slider stylesheet -->
-  <!-- slider stylesheet -->
+  <title>EduCendekia</title>
+
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 
-  <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="assets/style/css/bootstrap.css" />
 
-  <!-- fonts style -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:400,700&display=swap" rel="stylesheet">
-  <!-- Custom styles for this template -->
+
   <link href="assets/style/css/style.css" rel="stylesheet" />
-  <!-- responsive style -->
   <link href="assets/style/css/responsive.css" rel="stylesheet" />
 </head>
 
 <body style="background:#B5CAEE">
   <?php include('navbar.php') ?>
-  <div class="container py-5">
-    <h1 class="py-5 text-center">
-      Edupac <br>
-    Dipiscing elit
+  <div class="container py-5 text-center">
+    <h1 class="py-5 ">
+      EduCendekia <br>
     </h1>
-
+    Informasi mengenai Event pendidikan ! Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis fuga iure modi ut commodi, maiores incidunt sunt, obcaecati amet odit, repellendus dignissimos provident officia magni doloremque saepe quae eum iste!
   </div>
   </div>
   <div class="hero_area">
-    <!-- client section -->
+
     <section class="client_section">
       <div class="container">
 
@@ -101,16 +94,13 @@
     </section>
   </div>
 
-  <!-- end client section -->
-
-  <!-- footer section -->
 
   <script type="text/javascript" src="assets/style/js/jquery-3.4.1.min.js"></script>
   <script type="text/javascript" src="assets/style/js/bootstrap.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
   </script>
-  <!-- owl carousel script 
-    -->
+
+  <!-- carousel script -->
   <script type="text/javascript">
     $(".owl-carousel").owlCarousel({
       loop: true,
@@ -129,7 +119,7 @@
       }
     });
   </script>
-  <!-- end owl carousel script -->
+  <!-- carousel script -->
 
 
   <script src="js/bootstrap.min.js"></script>
