@@ -38,7 +38,7 @@
         <?php include('sidebar.php') ?>
       </div>
 
-      <div class="col py-3">
+      <div class="col py-3 ">
         <?php include('navbar.php') ?>
         <?php
         $level = "admin";
@@ -48,14 +48,14 @@
         $databerita = $koneksi->query("SELECT COUNT(*) as jumlah FROM berita")->fetch_assoc();
 
         ?>
-        <section class="content">
+        <section class="content py-5">
           <div class="container-fluid">
-            <div class="row">
-              <div class="col-lg-3 col-6">
+            <div class="row p-5 ">
+              <div class="col-lg-3 col-6 ">
                 <div class="small-box bg-info">
                   <div class="inner" style="margin-top:10px; height:100px;">
                     <h4 style="text-align:center;">Jumlah Admin</h4>
-                    <h1 class="fw-bold" style="text-align:center;"><?= $dataadmin['jumlah'] ?> <i class="bi bi-person-fill"></i></h1>
+                    <h1 class="fw-bold" style="text-align:center;"><?= $dataadmin['jumlah'] ?> <i class="bi bi-people-fill"></i></h1>
                   </div>
                 </div>
               </div>
@@ -63,7 +63,7 @@
                 <div class="small-box bg-warning">
                   <div class="inner" style="margin-top:10px; height:100px;">
                     <h4 style="text-align:center;">Jumlah Berita</h4>
-                    <h1 class="fw-bold" style="text-align:center;"><?= $databerita['jumlah'] ?> <i class="bi bi-clipboard-data"></i></h1>
+                    <h1 class="fw-bold" style="text-align:center;"><?= $databerita['jumlah'] ?> <i class="bi bi-list-columns"></i></h1>
                   </div>
                 </div>
               </div>
@@ -71,7 +71,7 @@
                 <div class="small-box bg-info">
                   <div class="inner" style="margin-top:10px; height:100px;">
                     <h4 style="text-align:center;">Jumlah Admin</h4>
-                    <h1 class="fw-bold" style="text-align:center;"><?= $dataadmin['jumlah'] ?> <i class="bi bi-person-fill"></i></h1>
+                    <h1 class="fw-bold" style="text-align:center;"><?= $dataadmin['jumlah'] ?> <i class="bi bi-people-fill"></i></h1>
                   </div>
                 </div>
               </div>
@@ -79,7 +79,7 @@
                 <div class="small-box bg-warning">
                   <div class="inner" style="margin-top:10px; height:100px;">
                     <h4 style="text-align:center;">Jumlah Berita</h4>
-                    <h1 class="fw-bold" style="text-align:center;"><?= $databerita['jumlah'] ?> <i class="bi bi-clipboard-data"></i></h1>
+                    <h1 class="fw-bold" style="text-align:center;"><?= $databerita['jumlah'] ?> <i class="bi bi-list-columns"></i></h1>
                   </div>
                 </div>
               </div>
@@ -87,7 +87,7 @@
                 <div class="small-box bg-info">
                   <div class="inner" style="margin-top:10px; height:100px;">
                     <h4 style="text-align:center;">Jumlah Admin</h4>
-                    <h1 class="fw-bold" style="text-align:center;"><?= $dataadmin['jumlah'] ?> <i class="bi bi-person-fill"></i></h1>
+                    <h1 class="fw-bold" style="text-align:center;"><?= $dataadmin['jumlah'] ?> <i class="bi bi-people-fill"></i></h1>
                   </div>
                 </div>
               </div>
@@ -95,7 +95,7 @@
                 <div class="small-box bg-warning">
                   <div class="inner" style="margin-top:10px; height:100px;">
                     <h4 style="text-align:center;">Jumlah Berita</h4>
-                    <h1 class="fw-bold" style="text-align:center;"><?= $databerita['jumlah'] ?> <i class="bi bi-clipboard-data"></i></h1>
+                    <h1 class="fw-bold" style="text-align:center;"><?= $databerita['jumlah'] ?> <i class="bi bi-list-columns"></i></h1>
                   </div>
                 </div>
               </div>
