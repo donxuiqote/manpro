@@ -8,16 +8,7 @@
   <title>Admin</title>
   <link rel="stylesheet" href="../css/bootstrap.min.css">
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
-  <style>
-    #menu a:hover {
-      backdrop-filter: blur(10px) saturate(180%);
-      -webkit-backdrop-filter: blur(10px) saturate(180%);
-      background-color: rgba(156, 156, 165, 0.78);
-    }
-    html{
-      height: 100%;
-    }
-  </style>
+
 </head>
 
 <body>
@@ -52,7 +43,7 @@
           <div class="container-fluid">
             <div class="row p-5 ">
               <div class="col-lg-3 col-6 ">
-                <div class="small-box bg-info">
+                <div class="small-box bg-secondary">
                   <div class="inner" style="margin-top:10px; height:100px;">
                     <h4 style="text-align:center;">Jumlah Admin</h4>
                     <h1 class="fw-bold" style="text-align:center;"><?= $dataadmin['jumlah'] ?> <i class="bi bi-people-fill"></i></h1>
@@ -60,7 +51,7 @@
                 </div>
               </div>
               <div class="col-lg-3 col-6">
-                <div class="small-box bg-warning">
+                <div class="small-box bg-light">
                   <div class="inner" style="margin-top:10px; height:100px;">
                     <h4 style="text-align:center;">Jumlah Berita</h4>
                     <h1 class="fw-bold" style="text-align:center;"><?= $databerita['jumlah'] ?> <i class="bi bi-list-columns"></i></h1>
@@ -68,7 +59,7 @@
                 </div>
               </div>
               <div class="col-lg-3 col-6">
-                <div class="small-box bg-info">
+                <div class="small-box bg-secondary">
                   <div class="inner" style="margin-top:10px; height:100px;">
                     <h4 style="text-align:center;">Jumlah Admin</h4>
                     <h1 class="fw-bold" style="text-align:center;"><?= $dataadmin['jumlah'] ?> <i class="bi bi-people-fill"></i></h1>
@@ -76,29 +67,14 @@
                 </div>
               </div>
               <div class="col-lg-3 col-6">
-                <div class="small-box bg-warning">
+                <div class="small-box bg-light">
                   <div class="inner" style="margin-top:10px; height:100px;">
                     <h4 style="text-align:center;">Jumlah Berita</h4>
                     <h1 class="fw-bold" style="text-align:center;"><?= $databerita['jumlah'] ?> <i class="bi bi-list-columns"></i></h1>
                   </div>
                 </div>
               </div>
-              <div class="col-lg-3 col-6">
-                <div class="small-box bg-info">
-                  <div class="inner" style="margin-top:10px; height:100px;">
-                    <h4 style="text-align:center;">Jumlah Admin</h4>
-                    <h1 class="fw-bold" style="text-align:center;"><?= $dataadmin['jumlah'] ?> <i class="bi bi-people-fill"></i></h1>
-                  </div>
-                </div>
-              </div>
-              <div class="col-lg-3 col-6">
-                <div class="small-box bg-warning">
-                  <div class="inner" style="margin-top:10px; height:100px;">
-                    <h4 style="text-align:center;">Jumlah Berita</h4>
-                    <h1 class="fw-bold" style="text-align:center;"><?= $databerita['jumlah'] ?> <i class="bi bi-list-columns"></i></h1>
-                  </div>
-                </div>
-              </div>
+ 
 
             </div>
           </div>

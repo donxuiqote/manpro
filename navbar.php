@@ -10,7 +10,7 @@
                     <a class="nav-link" aria-current="page" href="event_pendidikan.php">Event Pendidikan</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="karya_tulis.php">Karya Tulis</a>
+                    <a class="nav-link disabled" href="karya_tulis.php">Karya Tulis</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
